@@ -1,7 +1,7 @@
 Using Fluent-bit v1.5 compiled locally on MacOS on the top of latest commit.
 
 <p align="center">
-  <img src="./local_resources/1.5lc.jpg" />
+  <img src="./local_resources/v1.4.4.jpg" />
 </p>
 
 ### Basic configuration file that generates random data using one of our input plugins and sends it to stdout.
@@ -39,7 +39,7 @@ Then we can use `curl` command:
 curl -s http://127.0.0.1:8888 | jq
 {
   "fluent-bit": {
-    "version": "1.5.0",
+    "version": "1.4.4",
     "edition": "Community",
     "flags": [
       "FLB_HAVE_PARSER",

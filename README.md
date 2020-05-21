@@ -1,7 +1,7 @@
-Using Fluent-bit v1.4.1 compiled locally on MacOS on the top of commit id [3c54884e](https://github.com/fluent/fluent-bit/commit/3c54884e)
+Using Fluent-bit v1.5 compiled locally on MacOS on the top of latest commit.
 
 <p align="center">
-  <img src="./local_resources/loclsetup.jpg" />
+  <img src="./local_resources/1.5lc.jpg" />
 </p>
 
 ### Basic configuration file that generates random data using one of our input plugins and sends it to stdout.
@@ -39,7 +39,7 @@ Then we can use `curl` command:
 curl -s http://127.0.0.1:8888 | jq
 {
   "fluent-bit": {
-    "version": "1.4.1",
+    "version": "1.5.0",
     "edition": "Community",
     "flags": [
       "FLB_HAVE_PARSER",
@@ -68,5 +68,9 @@ curl -s http://127.0.0.1:8888 | jq
 }
 
 ```
+
+<p align="center">
+  <img src="./local_resources/curl1.5.jpg" />
+</p>
 
 
